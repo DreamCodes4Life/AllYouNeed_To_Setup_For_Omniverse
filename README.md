@@ -13,7 +13,7 @@ Prepare your PC with Ubuntu 22 or above
   sudo apt install code
 ```
 
-# 2) 🐍 Python 3 Setup on Ubuntu
+# 2) Python 3 Setup on Ubuntu
 
 ```bash
 # Check if Python 3 is installed
