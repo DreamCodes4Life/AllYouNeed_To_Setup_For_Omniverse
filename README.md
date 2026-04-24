@@ -45,12 +45,17 @@ python3 -c "print('Hello, Python is working!')"
   sudo apt install nvidia-driver-580-open
 ```
 
+# 4) Install Docker y NVIDIA Tool Kit
 
-# 4) Install Docker
+🔗 [Install Docker y NVIDIA Docker Tool Kit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
+
 
 # 5) Install Kit App Template
+🔗 [Repo](https://github.com/NVIDIA-Omniverse/kit-app-template)
+
 
 ## 5.1) Build USDComposer
+
 
 ### 5.1.1) Build your first Stage
 
@@ -63,3 +68,7 @@ python3 -c "print('Hello, Python is working!')"
 # 7) Install ROS2 and RVIZ
 
 ## 7.1) Test coms with IsaacSim
+
+# 8) OpenUSD
+🔗 [Open USD Learning and tutorials](https://docs.nvidia.com/learn-openusd/latest/index.html)
+
