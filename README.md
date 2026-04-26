@@ -62,6 +62,7 @@ git clone https://github.com/NVIDIA-Omniverse/kit-app-template.git
 
 ## 5.2) USDExplorer
 Seguid mismos pasos que con USDComposer pero elegir USDExplorer
+Adjunto video con demo
 
 # 6) Install IsaacSim
 🔗 [Download IsaacSim](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/download.html)
