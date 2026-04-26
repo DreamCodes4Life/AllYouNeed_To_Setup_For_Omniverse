@@ -52,6 +52,10 @@ python3 -c "print('Hello, Python is working!')"
 
 # 5) Install Kit App Template
 🔗 [Repo](https://github.com/NVIDIA-Omniverse/kit-app-template)
+```bash
+git clone https://github.com/NVIDIA-Omniverse/kit-app-template.git
+```
+
 
 ## 5.1) Build and Navigate USDComposer
 🔗 [Overview USDComposer](https://docs.omniverse.nvidia.com/composer/latest/interface.html)
