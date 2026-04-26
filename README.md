@@ -53,22 +53,37 @@ python3 -c "print('Hello, Python is working!')"
 # 5) Install Kit App Template
 🔗 [Repo](https://github.com/NVIDIA-Omniverse/kit-app-template)
 
+## 5.1) Build and Navigate USDComposer
+🔗 [Overview USDComposer](https://docs.omniverse.nvidia.com/composer/latest/interface.html)
 
-## 5.1) Build USDComposer
-
-
-### 5.1.1) Build your first Stage
-
-## 5.2) Build USDExplorer
+## 5.2) USDExplorer
+Seguid mismos pasos que con USDComposer pero elegir USDExplorer
 
 # 6) Install IsaacSim
+🔗 [Download IsaacSim](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/download.html)
 
 ## 6.1) Build your first Robot
+🔗 [Tutorial to build your first robot](https://docs.nvidia.com/learning/physical-ai/getting-started-with-isaac-sim/latest/building-your-first-robot-in-isaac-sim/index.html)
 
 # 7) Install ROS2 and RVIZ
+🔗 [Download IsaacSim](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_ros.html)
 
-## 7.1) Test coms with IsaacSim
+## 7.1) Tutorial IsaacSim ROS2
+🔗 [Download IsaacSim](https://www.youtube.com/watch?v=F9K7RUmumQc)
 
-# 8) OpenUSD
+# 8) OpenUSD y Tutoriales
 🔗 [Open USD Learning and tutorials](https://docs.nvidia.com/learn-openusd/latest/index.html)
+🔗 [Open USD Explained in my Github](https://github.com/DreamCodes4Life/OpenUSDFundamentals)
+🔗 [Youtube PlayList](https://www.youtube.com/watch?v=ulZMQLSNgyQ&list=PL5DeJbWGvSbevfX8PaqGpWImnVxT2BIKd)
+
+# Documents and tutorials to follow
+In the bellow link you have all details about IsaacSim, tutorials, ROS2, IsaacLab, etc. 
+NOTE: if you switch between versions you can find different tutorials.
+🔗 [All About IsaacSim](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/index.html)
+
+
+
+
+
+
 
