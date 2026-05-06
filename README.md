@@ -124,6 +124,11 @@ sudo apt autoremove
 sudo apt upgrade # Consider upgrading for packages previously shadowed.
 ```
 
+### To see topics
+```bash
+ros2 topic list
+```
+
 🔗 [ROS2 IsaacSim](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_ros.html)
 
 ## 7.1) Tutorial IsaacSim ROS2
