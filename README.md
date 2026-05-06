@@ -71,7 +71,60 @@ Adjunto video con demo
 🔗 [Tutorial to build your first robot](https://docs.nvidia.com/learning/physical-ai/getting-started-with-isaac-sim/latest/building-your-first-robot-in-isaac-sim/index.html)
 
 # 7) Install ROS2 and RVIZ
-🔗 [Download IsaacSim](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_ros.html)
+🔗 [ROS2 Jazzy](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html)
+
+```bash
+locale  # check for UTF-8
+
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+locale  # verify settings
+
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+
+sudo apt update && sudo apt install curl -y
+export ROS_APT_SOURCE_VERSION=$(curl -s https://api.github.com/repos/ros-infrastructure/ros-apt-source/releases/latest | grep -F "tag_name" | awk -F'"' '{print $4}')
+curl -L -o /tmp/ros2-apt-source.deb "https://github.com/ros-infrastructure/ros-apt-source/releases/download/${ROS_APT_SOURCE_VERSION}/ros2-apt-source_${ROS_APT_SOURCE_VERSION}.$(. /etc/os-release && echo ${UBUNTU_CODENAME:-${VERSION_CODENAME}})_all.deb"
+sudo dpkg -i /tmp/ros2-apt-source.deb
+
+sudo apt update && sudo apt install ros-dev-tools
+
+sudo apt update
+
+sudo apt upgrade
+
+sudo apt install ros-jazzy-desktop
+
+sudo apt install ros-jazzy-ros-base
+
+source /opt/ros/jazzy/setup.bash
+```
+### Examples
+```bash
+# Run in one terminal
+source /opt/ros/jazzy/setup.bash
+ros2 run demo_nodes_cpp talker
+
+# Run in another terminal
+source /opt/ros/jazzy/setup.bash
+ros2 run demo_nodes_py listener
+```
+
+### Uninstall
+```bash
+sudo apt remove '~nros-jazzy-*' && sudo apt autoremove
+
+sudo apt remove ros2-apt-source
+sudo apt update
+sudo apt autoremove
+sudo apt upgrade # Consider upgrading for packages previously shadowed.
+```
+
+🔗 [ROS2 IsaacSim](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_ros.html)
 
 ## 7.1) Tutorial IsaacSim ROS2
 🔗 [Download IsaacSim](https://www.youtube.com/watch?v=F9K7RUmumQc)
