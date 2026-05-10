@@ -133,6 +133,7 @@ ros2 topic list
 
 ## 7.1) Tutorial IsaacSim ROS2
 🔗 [Download IsaacSim](https://www.youtube.com/watch?v=F9K7RUmumQc)
+🔗 [Connect ISaacSim to ROS2](https://github.com/DreamCodes4Life/ConnectIsaacSim_to_ROS2_Novacarter/blob/main/01_Set_The_Environment.sh)
 
 # 8) OpenUSD y Tutoriales
 🔗 [Open USD Learning and tutorials](https://docs.nvidia.com/learn-openusd/latest/index.html)
