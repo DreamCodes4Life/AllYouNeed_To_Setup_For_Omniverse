@@ -42,7 +42,8 @@ python3 -c "print('Hello, Python is working!')"
   nvidia-smi
   ubuntu-drivers devices
   sudo ubuntu-drivers autoinstall
-  sudo apt install nvidia-driver-580-open
+ # if you want a fixed version use next command with the drivers you want
+ # sudo apt install nvidia-driver-580-open
 ```
 
 # 4) Install Docker y NVIDIA Tool Kit
