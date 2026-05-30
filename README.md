@@ -1,8 +1,11 @@
 
 Prepare your PC with Ubuntu 22 or above
+
 Please note, I recommend visiting the current doc in case of any updates
+
 Don't install directly if there is any option that it is already installed, bu section. 
-Easy: Copy the whole code in chatGPT an use the pront, "I want to install al these packages in my system Ubuntu XX, with GPU XX where I want to run Isaac Version XX, but before that I want to check if it is already installed, what I should see after checking and what should I run if the check fails"
+
+You can: Copy the whole code in chatGPT an use the pront, "I want to install al these packages in my system Ubuntu XX, with GPU XX where I want to run Isaac Version XX, but before that I want to check if it is already installed, what I should see after checking and what should I run if the check fails"
 
 # 1) Install VSCode
 
